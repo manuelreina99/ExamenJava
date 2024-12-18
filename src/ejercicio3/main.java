@@ -25,17 +25,17 @@ public class main {
 		inventario inventario1 = new inventario(articulos);
 		
 		
-		productos camiseta = new productos("Camiseta", 100, 12.00);
-		productos sudadera = new productos("Sudadera", 70, 20.00);
-		productos pantalones = new productos("pantalones", 38, 35.00);
-		productos chaqueta = new productos("Chaqueta", 40, 70.00);
-		productos camisa = new productos("camisa", 57, 50.00);
-		
-		inventario1.anadirproducto(camiseta);
-		inventario1.anadirproducto(sudadera);
-		inventario1.anadirproducto(pantalones);
-		inventario1.anadirproducto(chaqueta);
-		inventario1.anadirproducto(camisa);
+//		productos camiseta = new productos("Camiseta", 100, 12.00);
+//		productos sudadera = new productos("Sudadera", 70, 20.00);
+//		productos pantalones = new productos("pantalones", 38, 35.00);
+//		productos chaqueta = new productos("Chaqueta", 40, 70.00);
+//		productos camisa = new productos("camisa", 57, 50.00);
+//		
+//		inventario1.anadirproducto(camiseta);
+//		inventario1.anadirproducto(sudadera);
+//		inventario1.anadirproducto(pantalones);
+//		inventario1.anadirproducto(chaqueta);
+//		inventario1.anadirproducto(camisa);
 		
 		
 		
