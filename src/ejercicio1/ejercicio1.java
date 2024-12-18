@@ -11,32 +11,32 @@ public class ejercicio1 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("introduzca palabra ");
 		
-		String palabraString= scanner.next();
-		int contador = 1;
+		String palabraString= scanner.nextLine();
 		
-		for( int i=0; i<palabraString.length(); i++) {
-			
-			
-			if (palabraString.charAt(i) == ' ') {
-            	
-                contador++;
-                
+		
+		
+		System.out.println("tiene "+ contador_palabras(palabraString)+ " palabras");
+		
+		
 			
 			}
+	
+	public static int contador_palabras(String frase) {
 		
-		
+		int contadorEspacios = 1;
 
         
-       
+        for (int i = 0; i < frase.length(); i++) {
+        	
+        	
+            if (frase.charAt(i) == ' ') {
+            	
+                contadorEspacios++;
+            }
         }
-		System.out.println("tiene "+ contador+ " palabras");
-		
-		for(int i=0; i<palabraString.length();i++) {
-			
-			
-			
-			
-			}
+
+       return contadorEspacios;
+	}
 		
 		
 		
@@ -45,4 +45,4 @@ public class ejercicio1 {
 		
 		}
 
-}
+
